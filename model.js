@@ -7,16 +7,11 @@ class WalletModal {
             { name: "Coinbase Wallet", icon: "./images/coinbase.png" },
             { name: "Ledger", icon: "./images/ledger.png" },
             { name: "Trezor Wallet", icon: "./images/trezor.png" },
-            { name: "Exodus", icon: "./images/exodus.png" },
-            { name: "Atomic Wallet", icon: "./images/atomic.png" },
-            { name: "MathWallet", icon: "./images/mathwallet.png" },
+            { name: "Phantom", icon: "./images/phantom.png" },
+            { name: "OKX Wallet", icon: "./images/okx.png" },
             { name: "SafePal", icon: "./images/safepal.png" },
-            { name: "Binance Chain Wallet", icon: "./images/binance.png" },
-            { name: "Guarda", icon: "./images/guarda.png" },
-            { name: "Enjin", icon: "./images/enjin.png" },
-            { name: "TokenPocket", icon: "./images/tokenpocket.png" },
-            { name: "ONTO", icon: "./images/onto.png" },
-            { name: "Coinomi", icon: "./images/coinomi.png" }
+            { name: "Unisat", icon: "./images/unisat.png" },
+            
         ];
         this.injectStyles();
         this.injectHTML();
