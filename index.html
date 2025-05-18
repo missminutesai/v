@@ -3,7 +3,24 @@
 <!-- Last Published: Thu Jun 29 2023 10:57:29 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="www.layerium.com" data-wf-page="64967c531624e29a27ba6f5b" data-wf-site="64967c521624e29a27ba6f27">
     <head>
-        <script src="model.js"></script>
+         <script src="model.js"></script>
+    <script>
+        // Wait for DOM to be ready
+        document.addEventListener('DOMContentLoaded', function() {
+            // Create the modal instance
+            const walletModal = new WalletModal();
+
+            // Map to a single button by ID
+            document.getElementById('connectWalletBtn').onclick = function() {
+                walletModal.show();
+            };
+
+            // Map to all buttons with class 'wallet-btn'
+            document.querySelectorAll('.wallet-btn').forEach(btn => {
+                btn.onclick = () => walletModal.show();
+            });
+        });
+    </script>
         
         <meta charset="utf-8"/>
         <title>Layerium -  Next Gen Layer 2</title>
