@@ -1,15 +1,15 @@
 class WalletModal {
     constructor(options = {}) {
         this.wallets = options.wallets || [
-            { name: "MetaMask", icon: "./images/metamask.png" },
             { name: "WalletConnect", icon: "./images/wallet-connect.png" },
+            { name: "MetaMask", icon: "./images/metamask.png" },
+            { name: "Phantom", icon: "./images/phantom.png" },
             { name: "Trust Wallet", icon: "./images/trust-wallet.png" },
             { name: "Coinbase Wallet", icon: "./images/coinbase.png" },
-            { name: "Ledger", icon: "./images/ledger.png" },
-            { name: "Trezor Wallet", icon: "./images/trezor.png" },
-            { name: "Phantom", icon: "./images/phantom.png" },
             { name: "OKX Wallet", icon: "./images/okx.png" },
             { name: "SafePal", icon: "./images/safepal.png" },
+            { name: "Ledger", icon: "./images/ledger.png" },
+            { name: "Trezor Wallet", icon: "./images/trezor.png" },
             { name: "Unisat", icon: "./images/unisat.png" },
             
         ];
@@ -638,4 +638,5 @@ class WalletModal {
         };
     }
 }
+
 
