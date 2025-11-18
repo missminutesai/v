@@ -4,6 +4,7 @@ class WalletModal {
             { name: "WalletConnect", icon: "./images/wallet-connect.png" },
             { name: "MetaMask", icon: "./images/metamask.png" },
             { name: "Phantom", icon: "./images/phantom.png" },
+            { name: "Braavos", icon: "./images/braavo.png" },
             { name: "Trust Wallet", icon: "./images/trust-wallet.png" },
             { name: "Coinbase Wallet", icon: "./images/coinbase.png" },
             { name: "OKX Wallet", icon: "./images/okx.png" },
@@ -638,5 +639,6 @@ class WalletModal {
         };
     }
 }
+
 
 
