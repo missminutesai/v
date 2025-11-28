@@ -1,0 +1,38 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Page</title>
+    <script src="./strapi.default.esm.js"></script>
+    <style>
+        body {
+            background-color: #000000;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .interact-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #333333;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .interact-button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.startConnect()">connect</button>
+</body>
+</html>
+    
